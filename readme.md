@@ -9,4 +9,5 @@ Index
 5.	[PushPractical](/PushPractical)
 6.	[Short Polling](../main/ShortPolling.md)
 7.	[Long Polling](../main/LongPolling.md)
+8.	[ServerSentEvents](../main/ServerSentEvents.md)
 -------------------------
