@@ -7,5 +7,6 @@ Index
 3.	[SyncVsAsyncPractical](/SyncVsAsyncPractical)
 4.	[Push](../main/SyncVsAsync.md)
 5.	[PushPractical](/PushPractical)
-
+6.	[Short Polling](../main/ShortPolling.md)
+7.	[Long Polling](../main/LongPolling.md)
 -------------------------
