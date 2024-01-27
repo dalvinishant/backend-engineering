@@ -9,22 +9,22 @@
 	RQ1				|					|
 	----->				|		REVERSE			|	1 HTTP/2 Connection
 	RQ2				|		PROXY			|	RQ3		RQ2		RQ1
-	----->				|					|	-----> -----> ----->
+	----->				|					|	-----> 		-----> 		----->
 	RQ3				|					|
 	----->				|					|
 
 	# Demultiplexing
 	Demultiplexing is routing multrequests to different sources
 
-							|						|	3 HTTP/1.1 Connections
-	1 HTTP/2 Connection				|						|	RQ1
-	RQ3		RQ2		RQ1		|						|	----->
-	-----> 		-----> 		----->		|		REVERSE				|
-							|		PROXY				|	RQ2
-							|						|	----->
-							|						|
-							|						|	RQ3
-							|						|	----->
+							|					|	3 HTTP/1.1 Connections
+	1 HTTP/2 Connection				|					|	RQ1
+	RQ3		RQ2		RQ1		|					|	----->
+	-----> 		-----> 		----->		|		REVERSE			|
+							|		PROXY			|	RQ2
+							|					|	----->
+							|					|
+							|					|	RQ3
+							|					|	----->
 ```
 
 ## Multiplexing
