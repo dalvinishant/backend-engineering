@@ -11,4 +11,5 @@ Index
 7.	[Long Polling](../main/LongPolling.md)
 8.	[ServerSentEvents](../main/ServerSentEvents.md)
 9.	[PublishSubscribe](../main/PublishSubscribe.md)
+10. [MultiplexingDemultiplexing](../main/MultiplexingDemultiplexing.md)
 -------------------------
